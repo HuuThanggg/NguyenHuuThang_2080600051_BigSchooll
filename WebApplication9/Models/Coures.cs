@@ -20,5 +20,6 @@ namespace WebApplication9.Models
         public Category Category { get; set; }
         [Required]
         public byte CategoryId { get; set; }
+        public string LecturerId { get; internal set; }
     }
 }
