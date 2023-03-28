@@ -8,6 +8,7 @@ using WebApplication9.Models;
 namespace WebApplication9.ViewModels
 {
     public class CourseViewModel
+    
     {
         [Required]
         public string Place { get; set; }

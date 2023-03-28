@@ -7,7 +7,7 @@ using System.Web;
 
 namespace WebApplication9.Models
 {
-    public class Coures
+    public class Course
     {
         public int Id { get; set; }
         public ApplicationUser Lecturer{ get; set; }
